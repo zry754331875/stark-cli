@@ -11,7 +11,8 @@
     },
     "scripts": {
         "compile": "babel src -d dist",
-        "watch": "npm run compile -- --watch"
+        "watch": "npm run compile -- --watch",
+        "prepublish": "yarn compile"
     },
     "keywords": [],
     "author": "",
