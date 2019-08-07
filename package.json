@@ -1,11 +1,8 @@
 {
     "name": "stark-cli",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "stark-cli is the Standard Tooling for node+ejs+gulp Development.",
     "main": "index.js",
-    "files": [
-        "dist"
-    ],
     "bin": {
         "stark": "./bin/www"
     },
@@ -14,9 +11,13 @@
         "watch": "npm run compile -- --watch",
         "prepublish": "yarn compile"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zry754331875/stark-cli"
+    },
+    "keywords": ["node", "ejs", "gulp", "koa"],
+    "author": "zry",
+    "license": "MIT",
     "dependencies": {
         "babel-cli": "^6.26.0",
         "babel-env": "^2.4.1",
